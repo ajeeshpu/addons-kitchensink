@@ -1,0 +1,17 @@
+[
+  {
+    "example_id": 1,
+    "name": "OAuth.io Addon",
+    "url": "/views/oauthio-addon/oauthio-addon.html"
+  },
+  {
+    "example_id": 2,
+    "name": "Facebook Addon",
+    "url": "/views/facebook-addon/facebook-addon.html"
+  },
+  {
+    "example_id": 3,
+    "name": "Geolocation Addon",
+    "url": "/views/geolocation/geolocation.html"
+  }
+]

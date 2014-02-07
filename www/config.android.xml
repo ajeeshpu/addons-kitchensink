@@ -1,0 +1,8 @@
+<widget id="com.appgyver.addons.kitchensink" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <!--
+    The following preferences are explained in more detail in the config.android.xml guide:
+      http://guides.appgyver.com/steroids/guides/project_configuration/config-xml-android/
+    -->
+
+    <preference name="fullscreen" value="false" />
+</widget>

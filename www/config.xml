@@ -1,0 +1,24 @@
+<widget id="com.appgyver.addons.kitchensink" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <name>Steroids Addons Kitchensink</name>
+  <description>
+      Steroids Addons kitchensink application.
+  </description>
+  <author email="contact@appgyver.com" href="http://www.appgyver.com/steroids/addons">
+      AppGyver Steroids Team
+  </author>
+  <access origin="*" />
+  
+  <!-- These values are used to configure Steroids Addons -->
+  
+  <feature name="http://appgyver.com/steroids/addons/facebook">
+      <param name="appId" value="243568069147851" />
+  </feature>
+
+  <feature name="http://appgyver.com/steroids/addons/geolocation">
+      <param name="continuousUpdates" value="true" />
+  </feature>
+
+  <feature name="http://appgyver.com/steroids/addons/oauthio">
+      <param name="publicKey" value="ifvqNTK2cwahxmQ7DO_up-P2Ndw" />
+  </feature>
+</widget>
