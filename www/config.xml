@@ -11,7 +11,7 @@
   <!-- These values are used to configure Steroids Addons -->
   
   <feature name="http://appgyver.com/steroids/addons/facebook">
-      <param name="appId" value="243568069147851" />
+      <param name="appId" value="514902158624362" />
   </feature>
 
   <feature name="http://appgyver.com/steroids/addons/geolocation">
@@ -19,6 +19,6 @@
   </feature>
 
   <feature name="http://appgyver.com/steroids/addons/oauthio">
-      <param name="publicKey" value="ifvqNTK2cwahxmQ7DO_up-P2Ndw" />
+      <param name="publicKey" value="0U_qd69VWLg0STMuDlNf6g70mrw" />
   </feature>
 </widget>

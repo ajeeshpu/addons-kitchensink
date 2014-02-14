@@ -46,3 +46,7 @@ input {
 .block {
   display:block;
 }
+
+.error {
+  color: #C90000;
+}

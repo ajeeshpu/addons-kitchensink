@@ -1,17 +1,24 @@
 <div ng-app="facebookAddonApp">
   <div ng-controller="SteroidsFacebookAddonCtrl" class="content-padded">
-    <h1>Facebook Addon</h1>
+    <div ng-hide="addonsUndefined">
+      <h1>Facebook Addon</h1>
 
-    <h2>Addon initialized: {{ ready }}</h2>
+      <h2>Addon initialized: {{ ready }}</h2>
 
-    <h2>Facebook login status: {{ loginStatus }}</h2>
+      <h2>Facebook login status: {{ loginStatus }}</h2>
 
-    <div ng-show="!loginStatus">
-      <div class="topcoat-button full center block" ng-click="facebookLogin()">Login to Facebook</div>
+      <div ng-show="!loginStatus">
+        <div class="topcoat-button full center block" ng-click="facebookLogin()">Login to Facebook</div>
+      </div>
+
+      <div ng-show="loginStatus">
+        <div class="topcoat-button full center block" ng-click="facebookLogout()">Logout from Facebook</div>
+      </div>
     </div>
-
-    <div ng-show="loginStatus">
-      <div class="topcoat-button full center block" ng-click="facebookLogout()">Logout from Facebook</div>
+    
+    <div ng-show="addonsUndefined">
+      <h1 class="error">Error!</h1>
+      <p>Uh oh! It seems like <code>steroids.addons.js</code> is not loaded. Ensure you have added it to your project according to the instructions at <a href="http://addons.appgyver.com">http://addons.appgyver.com</a>.</p>
     </div>
   </div>
 </div>

@@ -1,6 +1,13 @@
 <div ng-app="geolocationAddonApp">
   <div ng-controller="SteroidsGeolocationAddonCtrl" class="content-padded">
-    <p>The geolocation addon provides you with an easy access to a stream of location updates.</p>
-    <h2>Current position</h2>
-    <p ng-bind-html="position"></p>
+    <div ng-hide="addonsUndefined">
+      <p>The geolocation addon provides you with an easy access to a stream of location updates.</p>
+      <h2>Current position</h2>
+      <p ng-bind-html="position"></p>
+    </div>
+    
+    <div ng-show="addonsUndefined">
+      <h1 class="error">Error!</h1>
+      <p>Uh oh! It seems like <code>steroids.addons.js</code> is not loaded. Ensure you have added it to your project according to the instructions at <a href="http://addons.appgyver.com">http://addons.appgyver.com</a>.</p>
+    </div>
 </div>
