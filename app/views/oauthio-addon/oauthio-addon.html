@@ -5,7 +5,9 @@
       
       <h2>Addon initialized: {{ ready }}</h2>
 
-      <h2>Twitter login status: {{ loginStatus }}</h2>
+      <h2>Twitter authentication status: {{ loginStatus }}</h2>
+
+      <p ng-show="userName">Hello, {{ userName }}!</p>
 
       <div ng-show="ready">
         <div ng-hide="loginStatus">
