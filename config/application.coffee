@@ -4,7 +4,7 @@
 steroids.config.name = "testitesti"
 
 # -- Initial Location --
-steroids.config.location = "http://localhost/views/tabs/steroids-addons.html"
+steroids.config.location = "http://localhost/views/addons/index.html"
 
 steroids.config.tabBar.enabled = false
 # steroids.config.tabBar.tabs = [
