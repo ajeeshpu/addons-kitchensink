@@ -14,6 +14,6 @@
         "steroids": "3.1.9"
     },
     "devDependencies": {
-        "grunt-steroids": "0.1.x"
+        "grunt-steroids": "0.x"
     }
 }
