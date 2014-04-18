@@ -4,6 +4,8 @@
         http://guides.appgyver.com/steroids/guides/project_configuration/config-xml-ios/
       -->
 
+    <access origin="*" />
+    
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="DisallowOverscroll" value="false" />
     <preference name="EnableViewportScale" value="false" />
