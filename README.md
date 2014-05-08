@@ -11,9 +11,9 @@ This project demonstrates the features of [Steroids Add-ons](http://www.appgyver
 
 Steroids Add-ons is only available to subscribers. You can get a subscription on the [AppGyver website](http://www.appgyver.com/steroids/addons/).
 
-Once you've got an active Add-ons subscription, you can download the `steroids-addons.js` file from the [AppGyver Cloud](http://addons.appgyver.com). You can also find links to the Steroids Add-ons Guides and API docs there.
-  
-(Run `$ steroids deploy` in a Steroids project folder to deploy an application to the cloud if you haven't done this before.)
+Once you've got an active Add-ons subscription, you can go to the [AppGyver Add-ons page](http://addons.appgyver.com) for instructionson how to install the Steroids Add-ons JavaScript file via Bower. You can also find links to the Steroids Add-ons Guides and API docs there.
+
+Once you've installed the Add-ons JavaScript file, run `$ steroids update` to install all other required Bower components.
 
 ## Running
 
