@@ -6,6 +6,7 @@ This project demonstrates the features of [Steroids Add-ons](http://www.appgyver
 * Facebook
 * Geolocation
 * OAuth.io
+* Urban Airship (requires custom configuration to work)
 
 ## Installation
 
@@ -26,3 +27,7 @@ in the project root, then scan the QR code with [AppGyver Scanner for iOS](https
 ## Configuration
 
 The `www/config.xml` file holds configuration options for the Add-ons. Note that to change the Facebook App ID, you need to build a custom scanner.
+
+### Urban Airship
+
+To see the Urban Airship plugin at work you will need to build a custom scanner and set-up your Urban Airship API keys in `www/config.ios.xml`. For more info see [Urban Airship Add-on Setup Guide](http://guides.appgyver.com/steroids-addons/urban-airship/setup/).
