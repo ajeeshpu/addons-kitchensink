@@ -23,6 +23,11 @@ addonsApp.controller 'SteroidsAddonsCtrl', ($scope) ->
       name: "Geolocation Add-on"
       url: "/views/geolocation/geolocation.html"
     }
+    {
+      example_id: 4
+      name: "Urban Airship Add-on"
+      url: "/views/urbanairship/urbanairship.html"
+    }
   ]
 
   # -- Native navigation

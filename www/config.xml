@@ -21,4 +21,8 @@
   <feature name="http://appgyver.com/steroids/addons/oauthio">
       <param name="publicKey" value="0U_qd69VWLg0STMuDlNf6g70mrw" />
   </feature>
+
+  <feature name="http://appgyver.com/steroids/addons/urbanairship">
+      <param name="enabled" value="true" />
+  </feature>
 </widget>

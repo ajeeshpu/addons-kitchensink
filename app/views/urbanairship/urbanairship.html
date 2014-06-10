@@ -3,9 +3,21 @@
   	<div ng-hide="addonsUndefined">
       <h1>Urban Airship Add-on</h1>
       
-      <h2>Add-on initialized: {{ pluginready }}</h2>
+      <h3>Add-on initialized: {{ pluginready }}</h3>
 
-      <h2>Push enabled: {{ pushenabled }}</h2>
+      <h3>Push enabled: {{ pushenabled }}</h3>
+
+      <h3>Device registration: {{ registration }}</h3>
+
+      <h2>Push notifications:</h2>
+      <ul>
+        <li ng-repeat="notification in notifications">{{ notification.message }}</li>
+      </ul>
+
+      <h2>Incoming notifications:</h2>
+      <ul>
+        <li ng-repeat="notification in incoming">{{ notification.message }}</li>
+      </ul>
 
     </div>
     
